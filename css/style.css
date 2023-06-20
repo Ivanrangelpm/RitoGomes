@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;  
+  list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background: #FF0000;
+    height: 80px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    align-items: baseline;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    color: #000000;
+    font-size: 18px;
+}
+
