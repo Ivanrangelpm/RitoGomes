@@ -46,6 +46,7 @@ nav ul li a{
 nav ul li a:hover{
     color: #000000;
     font-size: 18px;
+    transition: 0.3s;
 }
 
 section{
@@ -57,10 +58,26 @@ section{
 
 section h1{
     color: #912525;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+section p{
+    color: #000000 ;
+    font-size: 23px;
+}
+
+section a{
+    text-decoration: underline;
+    color: #000000;
 }
 
 .secimage img{
-    width: 500px;
+    float: right;
+    margin-left: auto;
+    margin-right: 90px;
+    margin-top: 230px;
+    width: 700px;
 }
 
 footer{
@@ -70,6 +87,18 @@ footer{
     width: 100%;
     background-color: #2E2E2E;
     padding: 20px 0;
+}
+
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: ;
+}
+
+.rdp{
+    justify-content: left;
 }
 
 footer img{
