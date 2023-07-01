@@ -108,9 +108,52 @@ footer img{
     width: 70px;
 
 }
-.banner-vava h1{
-    color: #711717;
+
+.banner-vava{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
+    height: 380px;
+    background-image: url(/img/vavabanner2.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
+
+.banner-vava h1{
+    color: #B82222;
+    height: 20vh;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.banner-vava p{
+    color: white;
+    font-weight: bold;
+    margin-top: -70px;
+}
+
+.banner-vava button{
+    position: relative;
+    margin-top: 60px;
+    color: white;
+    font-size: 30px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 240px;
+    height: 80px;
+    transition: 0.6s;
+    overflow-wrap: hidden;
+}
+
+.banner-vava button:hover{
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
 
