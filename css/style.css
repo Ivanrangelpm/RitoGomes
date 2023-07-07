@@ -157,3 +157,50 @@ footer img{
     cursor: pointer;
 }
 
+.banner-lol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 500px;
+    background-image: url(/img/lolbanner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-lol h1{
+    height: 20vh;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-lol p{
+    margin-top: -100px;
+    color: white;
+    font-size: 22px;
+}
+
+.banner-lol button{
+    position: relative;
+    margin-top: 70px;
+    color: white;
+    font-size: 23px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 240px;
+    height: 80px;
+    transition: 0.6s;
+    overflow: hidden;
+}
+
+.banner-lol button:hover{
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+
+
